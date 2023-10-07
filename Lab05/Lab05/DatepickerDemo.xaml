@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab05.DatepickerDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <DatePicker x:Name="dptTest2" MinimumDate="01/01/2018"
+                    MaximumDate="12/21/2021" 
+                    Date="07/10/2021">
+
+            </DatePicker>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
